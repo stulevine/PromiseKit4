@@ -1,4 +1,5 @@
-public enum CatchPolicy {
+@objc
+public enum CatchPolicy: Int {
     case allErrorsExceptCancellation
     case allErrors
 }
